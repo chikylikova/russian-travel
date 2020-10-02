@@ -1,0 +1,9 @@
+.header {
+    min-width: 928px;
+    min-height: 52px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 48px 0;
+  }
