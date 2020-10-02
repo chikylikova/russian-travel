@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.page {
+  min-width: 1024px;
+  min-height: 6895px;
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  min-width: 928px;
+  min-height: 52px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 48px 0;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+  border: 1px solid red;
+  
+}
+
+.header__lang-link/*_rus*/ {
+  color: #fff;
+  border: 1px solid red;
+  /* width: 30px;
+  height: 28px;
+  font-family: Inter; */
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: right;
+ /* margin-left: 657px;
+  margin-right: 18px; */
+}
+
+.header__lang-link_rus {
+  width: 30px;
+  height: 28px;
+  margin-left: 657px;
+  margin-right: 18px;
+}
+
+.header__lang-link_eng {
+  text-decoration: none;
+  width: 29px;
+  height: 28px;
+  /*font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: right; */
+}
