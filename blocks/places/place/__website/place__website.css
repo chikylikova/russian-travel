@@ -1,0 +1,8 @@
+.place__website {
+  border: 1px solid red;
+  width: 456px;
+  height: 46px;
+  margin: 0;
+  align-self: flex-end;
+  display: block;
+}

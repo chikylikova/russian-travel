@@ -1,0 +1,11 @@
+.place__website_link {
+  width: 100%;
+  height: 22px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+  margin: 0;
+}
