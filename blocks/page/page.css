@@ -1,6 +1,8 @@
 .page {
     font-family: 'Inter';
     color: #fff;
+    font-style: normal;
+    font-weight: 400 900;
     max-width: 1280px;
     max-height: 6875px;
     background-color: #2A2C2F;
