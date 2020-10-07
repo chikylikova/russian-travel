@@ -28,10 +28,9 @@
 @import url(../blocks/places/place/__paragraph/_top/place__paragraph_top.css);
 @import url(../blocks/places/place/__paragraph/_bottom/place__paragraph_bottom.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
