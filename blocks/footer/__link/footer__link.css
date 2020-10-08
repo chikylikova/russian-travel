@@ -1,7 +1,19 @@
 .footer__link {
+   border: 1px solid red;
    color: #fff;
    text-decoration: none;
-   width: 50px;
-   height: 18px;
    margin-right: 18px;
+   font-size: 16px;
+   line-height: 18px;
+   font-style: normal;
+   font-weight: normal;
+}
+
+@media screen and (max-width:320px) {
+   .footer__link {
+       margin-bottom: 32px;
+       font-size: 24px;
+       line-height: 24px;
+       font-weight: normal;
+   }
 }
