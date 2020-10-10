@@ -3,21 +3,21 @@
   margin: 0 auto 92px;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1279px) {
   .photo-grid {
     width: calc(100% - 2*48px);
     min-height: 942px;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1023px) {
   .photo-grid {
     width: calc(100% - 2*24px);
     min-height: 1664px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .photo-grid {
     width: calc(100% - 2*16px);
     min-height: 2724px;

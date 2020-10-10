@@ -3,10 +3,11 @@
   height: 46px;
   margin: 0;
   align-self: flex-end;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:767px) {
   .place__website {
     display: none;
   }

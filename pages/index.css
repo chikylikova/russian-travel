@@ -17,7 +17,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__count/intro__count.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -25,8 +25,8 @@
 @import url(../blocks/places/place/place.css);
 @import url(../blocks/places/place/__title/place__title.css);
 @import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__website/_url-heading/place__website_url-heading.css);
-@import url(../blocks/places/place/__website/_link/place__website_link.css);
+@import url(../blocks/places/place/__url-heading/place__url-heading.css);
+@import url(../blocks/places/place/__link/place__link.css);
 @import url(../blocks/places/place/__image/place__image.css);
 @import url(../blocks/places/place/__paragraph/place__paragraph.css);
 @import url(../blocks/places/place/__paragraph/_top/place__paragraph_top.css);
@@ -36,28 +36,8 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-.lead {
-    outline: 1px solid red
-}
-.lead__title {
-    outline: 1px solid red
-}
-.lead__subtitle {
-    outline: 1px solid red
-}
-.lead__image {
-    outline: 1px solid red
-}
-.lead__caption {
-    outline: 1px solid red
-}
-.page__container {
-    outline: 1px solid red
-}
-.header {
-    outline: 1px solid red
-}
