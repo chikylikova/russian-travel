@@ -1,9 +1,16 @@
 .places {
     border: 1px solid red;
-    width: 984px;
-    min-height: calc(100% - 3392px);
-    margin: 0 148px 92px;
+    width: calc(100% - 2*100px);
+    min-height: 3392px;
+    margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:1024px) {
+    .places {
+      width: calc(100% - 2*48px);
+      min-height: 3292px;
+    }
 }
