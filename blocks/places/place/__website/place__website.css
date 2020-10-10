@@ -1,8 +1,13 @@
 .place__website {
-  border: 1px solid red;
-  width: 456px;
+  max-width: 100%;
   height: 46px;
   margin: 0;
   align-self: flex-end;
   display: block;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
 }

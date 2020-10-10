@@ -1,5 +1,4 @@
 .footer__link {
-   border: 1px solid red;
    color: #fff;
    text-decoration: none;
    margin-right: 18px;
@@ -9,8 +8,9 @@
    font-weight: normal;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
    .footer__link {
+       margin-right: 0;
        margin-bottom: 32px;
        font-size: 24px;
        line-height: 24px;

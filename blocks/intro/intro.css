@@ -1,5 +1,4 @@
 .intro {
-  border: 1px solid red;
   max-width: calc(100% - 100px - 394px);
   min-height: 429px;
   margin-left: 100px;
@@ -10,14 +9,14 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
   .intro {
     max-width: calc(100% - 48px - 286px);
     margin-left: 48px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .intro {
     max-width: calc(100% - 24px*2);
     margin-bottom: 88px;

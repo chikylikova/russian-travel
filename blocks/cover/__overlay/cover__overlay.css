@@ -1,5 +1,4 @@
 .cover__overlay {
-    border: 1px solid red;
     min-height: 740px;
     color: #fff;
     text-decoration: none;
@@ -25,4 +24,22 @@
 .cover__overlay:hover:before {
     opacity: 0.8;
     transition: all 2s;
+}
+
+@media screen and (max-width:1023px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover__overlay {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }

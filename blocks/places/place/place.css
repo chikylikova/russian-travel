@@ -1,13 +1,26 @@
 .place {
-  border: 1px solid red;
-  width: 100%;
-  min-height: 660px;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px 48px;
   margin-bottom: 80px;
 }
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+  .place {
+    grid-gap: 28px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 48px;
+  }
 }

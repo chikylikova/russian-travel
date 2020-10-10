@@ -1,5 +1,4 @@
 .header__lang-link_active {
-    border: 1px solid red;
     color: #fff;
     width: 30px;
     height: 28px;
@@ -10,7 +9,7 @@
     margin: 18px 18px 6px 0;
   }
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:1023px) {
     .header__lang-link_active {
       width: 22px;
       height: 20px;
