@@ -1,19 +1,20 @@
-.header__lang-link_inert {
+.header__lang-link {
     text-decoration: none;
     color: #fff;
     max-width: 29px;
     min-height: 28px;
     font-size: 24px;
+    font-style: 'Inter';
     font-weight: normal;
     font-style: normal;
     line-height: 28px;
     margin: 18px 0 6px;
   }
 
-  @media screen and (max-width:1023px) {
-    .header__lang-link_inert {
-      width: 22px;
-      height: 20px;
+  @media screen and (max-width:767px) {
+    .header__lang-link {
+      max-width: 22px;
+      min-height: 20px;
       font-size: 18px;
       line-height: 20px;
       margin: 14px 0 8px;

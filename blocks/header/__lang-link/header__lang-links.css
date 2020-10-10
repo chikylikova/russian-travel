@@ -1,9 +1,10 @@
-.header__lang-link {
+.header__lang-links {
     color: #fff;
     font-family: 'Inter';
     font-style: normal;
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0;
