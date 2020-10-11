@@ -1,21 +1,4 @@
 .header__lang-link_active {
-    color: #fff;
-    max-width: 30px;
-    min-height: 28px;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 28px;
-    margin: 18px 18px 6px 0;
     text-decoration: underline;
   }
 
-  @media screen and (max-width:767px) {
-    .header__lang-link_active {
-      max-width: 22px;
-      min-height: 20px;
-      font-size: 18px;
-      line-height: 20px;
-      margin: 14px 18px 8px 0;
-    }
-  }
