@@ -1,7 +1,7 @@
 .place__paragraph {
   width: 100%;
   font-size: 18px;
-  line-height: 29,34px;
+  line-height: 29.34px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -19,7 +19,7 @@
 @media screen and (max-width:1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26,08px;
+    line-height: 26.08px;
   }
 }
 
@@ -28,6 +28,6 @@
     width: calc(100% - 2*16px);
     margin: 0 auto;
     font-size: 16px;
-    line-height: 26,08px;
+    line-height: 26.08px;
   }
 }
